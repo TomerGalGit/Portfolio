@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  direction: rtl;
+  font-family: "Heebo", sans-serif;
+  animation: fadeIn 2s;
+  height: 2500px;
+}
+#navibar {
+  width: 100%;
+  position: fixed;
+  box-shadow: 1px 3px 6px #0000007c;
+  z-index: 999;
+  opacity: 90%;
+}
+
+nav {
+  padding: 0 !important;
+  
+}
+
+.logo {
+  font-family: "Satisfy", cursive;
+
+  span {
+    margin-left: 8px;
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+  }
+
+  .icon {
+    height: 50px;
+    border-radius: 185px;
+    transition: 1s;
+  }
+  .icon :hover {
+    scale: 1.2;
+  }
+}
+
+li.nav-item {
+  margin: 0 12px;
+}
+
+a.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c2c2c !important;
+  transition: 0.6s;
+}
+a.nav-link:hover {
+  color: #dd1717bb !important;
+  box-shadow: 1px 3px 6px #0000007c;
+  scale: 1.15;
+}
+
+.main {
+  text-align: center;
+  background-image: linear-gradient(45deg, #e4040480, #dd1717bb),
+    url(Images/20EEC54B-91E0-48FC-82F7-53FA4704503D.png);
+  background-size: cover;
+  padding: 6rem !important;
+  margin: 0 !important;
+  color: white;
+  padding: 80px 0 80px 0 !important;
+
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+}
+
+.icons {
+  text-align: center;
+  box-shadow: 0px 3px 6px #00000029;
+  direction: ltr;
+  padding: 8px;
+
+  img {
+    height: 80px;
+    transition: 0.3s;
+
+    &:hover {
+      scale: 1.15;
+    }
+  }
+}
+#about-me {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 80px 0 80px 0;
+
+  .icon-big {
+    margin-top: 10px;
+    height: 200px;
+    width: 150px;
+    //border: 3px #8d8d8d80 solid;
+    box-shadow: 1px 4px 15px black;
+    border-radius: 50%;
+    transition: 0.8s;
+  }
+  .icon-big:hover {
+    scale: 1.15;
+  }
+  p {
+    margin: auto;
+    max-width: 1000px;
+    transition: 0.8s;
+  }
+  p:hover {
+    scale: 1.1;
+  }
+  h3:hover {
+    scale: 1.1;
+  }
+  h3 {
+    font-size: 35px;
+    margin: 15px;
+    transition: 0.8s;
+  }
+  .button {
+    background-color: #e40404;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 70%;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  .button:hover {
+    opacity: 100%;
+    scale: 1.1;
+  }
+}
+#gallery {
+  h3 {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 155px;
+  }
+    p{
+      text-align: center;
+    }
+  .row {
+    max-width: 1600px;
+    margin: auto;
+  }
+  .row>div {
+    margin-top: 50px;
+    padding: 55px;
+  }
+  .card-body {
+    box-shadow: 0px 0px 2px 1px #00000054;
+  }
+  .card {
+    transition: 0.8s;
+  }
+  .card:hover {
+    scale: 1.15;
+    box-shadow: 1px 5px 6px 5px #00000054;
+  }
+  .btn {
+    transition: 0.6s;
+  }
+  .btn:hover {
+    scale: 1.15;
+    background-color: #e40404;
+  }
+}
+
+.projbtn {
+  text-decoration: none;
+  color: white;
+}
+
+.projbtn:hover {
+  color: white;
+  box-shadow: 3px black 3px;
+
+}
+
+#contact {
+  background-image: linear-gradient(45deg, rgb(0, 0, 0), transparent), url(Images/Rectangle\ 41.png);
+  background-color: #3A3A3A;
+  padding: 4vw 3vw !important;
+  margin: 0 !important;
+  margin-top: 150px !important;
+  color: white;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: revert;
+  input.form-control {
+    border-bottom: #e40404 3px solid;
+  }
+  #sendbtn {
+    margin-top: 25px;
+    border-radius: 15px;
+  }
+  h2 {
+    font-weight: 900;
+  }
+}
+
+#links {
+  background-color: #fa2929;
+  text-align: center;
+  padding: 25px 0;
+  direction: ltr;
+  display: flex !important;
+  justify-content: center !important;
+
+  img {
+      height: 40px;
+      display: block;
+      margin: auto;
+  }
+
+  span {
+      margin: 8px 0;
+      display: inline-block;
+  }
+}
+
+footer {
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+  

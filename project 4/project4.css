@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+body {
+  direction: rtl;
+  background-image: url(/Images/Path\ 15.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+#navibar {
+  width: 100%;
+  position: fixed;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4862745098);
+  z-index: 999;
+  opacity: 90%;
+}
+
+nav {
+  padding: 0 !important;
+}
+
+.logo {
+  font-family: "Satisfy", cursive;
+}
+.logo span {
+  margin-left: 8px;
+  font-size: 25px;
+  position: relative;
+  top: 8px;
+}
+.logo .icon {
+  height: 50px;
+  border-radius: 185px;
+  transition: 1s;
+}
+.logo .icon :hover {
+  scale: 1.2;
+}
+
+.icons {
+  text-align: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  direction: ltr;
+  padding: 8px;
+  background: white;
+  margin: 0 !important;
+}
+.icons img {
+  height: 100px;
+  transition: 0.3s;
+}
+.icons img:hover {
+  scale: 1.15;
+}
+
+li.nav-item {
+  margin: 0 12px;
+}
+
+a.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c2c2c !important;
+  transition: 0.6s;
+}
+
+a.nav-link:hover {
+  color: rgba(221, 23, 23, 0.7333333333) !important;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4862745098);
+  scale: 1.15;
+}
+
+.main {
+  text-align: center;
+  background-image: linear-gradient(45deg, rgba(228, 4, 4, 0.5019607843), rgba(221, 23, 23, 0.7333333333)), url(/Images/20EEC54B-91E0-48FC-82F7-53FA4704503D.png);
+  background-size: cover;
+  padding: 6rem !important;
+  margin: 0 !important;
+  color: white;
+  padding: 80px 0 80px 0 !important;
+  margin: 0 !important;
+  position: relative;
+}
+.main h3 {
+  font-size: 80px;
+  margin-top: 90px !important;
+  font-weight: bold !important;
+}
+.main #p1 {
+  font-size: 25px;
+}
+.main a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.row {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.col-md-5 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 550px;
+  padding: 45px;
+  background: rgba(15, 15, 15, 0.8431372549) 0% 0% no-repeat;
+  position: relative;
+  top: 200px;
+  height: 550px;
+}
+form p {
+  color: white;
+}
+form label {
+  color: white;
+}
+form h1 {
+  color: white;
+}
+form .form-control {
+  background: white;
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+  border: none;
+}
+
+.form-control {
+  border: 3px solid purple;
+  background-color: rgba(255, 255, 255, 0.774);
+  height: 50px;
+}
+
+.btn-primary {
+  width: 150px;
+  height: 50px;
+  background-color: #D31C75;
+  border: 1px solid #D31C75;
+}
+
+.btn-primary:hover {
+  background-color: #f70077;
+  border: 1px solid #f70077;
+}
+
+.form-control:focus {
+  border-color: #D31C75;
+  box-shadow: 0 0 0 0.25rem #f70077 13, 110, 253, 0.25;
+}/*# sourceMappingURL=project4.css.map */
