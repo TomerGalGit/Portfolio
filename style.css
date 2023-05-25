@@ -99,10 +99,10 @@ a.nav-link:hover {
 }
 #about-me .icon-big {
   margin-top: 10px;
-  height: 200px;
-  width: 150px;
+  height: 350px;
+  width: 250px;
   box-shadow: 1px 4px 15px black;
-  border-radius: 50%;
+  border-radius: 40%;
   transition: 0.8s;
 }
 #about-me .icon-big:hover {
@@ -232,4 +232,8 @@ footer {
   padding: 8px;
   background-color: black;
   color: white;
+}
+
+.Sbtn {
+  margin-right: 125px;
 }/*# sourceMappingURL=style.css.map */

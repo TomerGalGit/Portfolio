@@ -97,6 +97,11 @@ form h1 {
 #img {
   height: 100vh;
   width: 1500px;
-  position: absolute;
-  right: 0;
+  position: relative;
+  right: -1000px;
+}
+
+.col-sm-5 {
+  position: relative;
+  right: -220px;
 }/*# sourceMappingURL=project6.css.map */
