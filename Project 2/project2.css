@@ -118,6 +118,12 @@ body {
 .row h1 {
   font-weight: 600;
   font-size: 65px;
+  position: relative;
+  right: -175px;
+}
+.row p {
+  position: relative;
+  right: -215px;
 }
 
 .row > * {
@@ -172,13 +178,12 @@ label {
 #aroma {
   height: 500px;
   width: 500px;
-  position: relative;
-  right: 90px;
 }
 
 .form-control {
   border: none !important;
   border-bottom: 5px solid rgb(194, 23, 17) !important;
+  width: 655px;
 }
 
 @media (max-width: 768px) {
