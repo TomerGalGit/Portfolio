@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+@media (min-width: 1200px) {
+  img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    display: none;
+  }
+}
 body {
   font-family: "Heebo", sans-serif;
   direction: rtl;
