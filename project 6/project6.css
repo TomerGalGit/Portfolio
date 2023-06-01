@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
-@media (min-width: 1200px) {
-  img {
+
+@media (max-width: 768px) {
+  #img {
     display: none;
   }
-}
-@media (max-width: 768px) {
-  img {
-    display: none;
+  .row {
+    margin: auto;
+    position: relative;
+    right: -1300px;
+    top: -100px;
   }
 }
 body {
